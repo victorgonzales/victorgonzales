@@ -1,0 +1,31 @@
+<svg width="700" height="150" viewBox="0 0 700 150" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    text { font-family: 'Courier New', Courier, monospace; text-anchor: middle; fill: #2E9EF7; }
+    .bold { font-weight: bold; font-size: 21px; }
+    .normal { font-size: 19px; }
+  </style>
+
+  <text class="bold" x="350" y="46" opacity="0">
+    Desenvolvedor de Software | 20+ anos de experiência
+    <animate attributeName="opacity" from="0" to="1" begin="0.1s" dur="0.6s" fill="freeze" id="l1o"/>
+    <animate attributeName="y" from="56" to="46" begin="0.1s" dur="0.6s" fill="freeze"/>
+  </text>
+
+  <text class="normal" x="350" y="79" opacity="0">
+    Delphi • PHP • ERP • Boletos Bancários
+    <animate attributeName="opacity" from="0" to="1" begin="l1o.end+0.3s" dur="0.6s" fill="freeze" id="l2o"/>
+    <animate attributeName="y" from="89" to="79" begin="l1o.end+0.3s" dur="0.6s" fill="freeze"/>
+  </text>
+
+  <text class="normal" x="350" y="112" opacity="0">
+    Documentos Fiscais • APIs
+    <animate attributeName="opacity" from="0" to="1" begin="l2o.end+0.3s" dur="0.6s" fill="freeze" id="l3o"/>
+    <animate attributeName="y" from="122" to="112" begin="l2o.end+0.3s" dur="0.6s" fill="freeze"/>
+  </text>
+
+  <text class="normal" x="350" y="145" opacity="0">
+    Contribuidor de Projetos OpenSource
+    <animate attributeName="opacity" from="0" to="1" begin="l3o.end+0.3s" dur="0.6s" fill="freeze" id="l4o"/>
+    <animate attributeName="y" from="155" to="145" begin="l3o.end+0.3s" dur="0.6s" fill="freeze"/>
+  </text>
+</svg>
